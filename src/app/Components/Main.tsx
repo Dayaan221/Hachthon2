@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 export default function Main () {
     return(
@@ -10,9 +9,6 @@ export default function Main () {
                         <h1 className="text-[#252b42] text-2xl font-bold leading-loose tracking-tight">Bandage</h1>
                     </div>
                     <div className="flex gap-6">
-                        {/* <Image src={fb} alt="fb" className="w-6 h-6 " />
-                        <Image src={instagram} alt="fb" className="w-6 h-6 " />
-                        <Image src={twitter} alt="fb" className="w-6 h-6 " /> */}
                     </div>
                 </div>
             </section>

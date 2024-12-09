@@ -18,18 +18,6 @@ export default function Between () {
         {/* Card Section */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[30px]">
           {/* Product Cards */}
-          {/* {[picture1, pic2, pic3, pic4, pic5, pic6, pic7, pic8].map(
-            (pic, index) => (
-              <div key={index} className="w-[238px] h-[615px] mx-auto">
-                <div className="w-full h-full">
-                  <div className="w-[239px] h-[427px]">
-                    <Image src={pic} alt={`picture${index + 1}`} />
-                  </div>
-                  <CardText />
-                </div>
-              </div>
-            )
-          )} */}
         </div>
       </div>
     </div>

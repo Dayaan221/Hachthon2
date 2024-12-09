@@ -1,8 +1,7 @@
-import Image from "next/image"
 export default function Down() {
         const posts = [
             {
-              // image: post1, // Directly assign the imported image
+             
               title: "Loudest à la Madison #1 (L'integral)",
               description:
                 "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
@@ -10,7 +9,7 @@ export default function Down() {
               comments: "10 comments",
             },
             {
-              // image: post2,
+              
               title: "Loudest à la Madison #1 (L'integral)",
               description:
                 "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
@@ -18,7 +17,7 @@ export default function Down() {
               comments: "10 comments",
             },
             {
-              // image: post3,
+            
               title: "Loudest à la Madison #1 (L'integral)",
               description:
                 "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
@@ -51,13 +50,6 @@ export default function Down() {
                     className="bg-white shadow-lg rounded-lg overflow-hidden"
                   >
                     <div className="relative">
-                      <Image
-                        src={'/'} // Use the image directly
-                        alt={`Post ${index + 1}`}
-                        width={400}
-                        height={250}
-                        className="w-full h-56 object-cover"
-                      />
                       <span className="absolute top-2 left-2 bg-red-500 text-white text-xs uppercase px-2 py-1 rounded">
                         New
                       </span>

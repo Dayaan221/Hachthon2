@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "./Components/Header";
 import  Hero  from "./Components/Hero";
 import  Editorspick  from "./Components/Editorspick";
